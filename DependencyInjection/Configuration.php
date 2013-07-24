@@ -278,7 +278,6 @@ class Configuration implements ConfigurationInterface
                             'level' => 'ERROR',
                             'bubble' => 'false',
                             'formatter' => 'my_formatter',
-                            'processors' => array('some_callable')
                             ),
                         'main' => array(
                             'type' => 'fingers_crossed',
